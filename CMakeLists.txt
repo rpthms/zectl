@@ -19,6 +19,7 @@ endif()
 
 add_subdirectory(lib)
 add_subdirectory(src)
+add_subdirectory(grub.d)
 
 if (BUILD_TESTING)
     add_subdirectory(tests)
